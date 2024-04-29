@@ -28,7 +28,7 @@ function MealDetailScreen({ route, navigation }) {
       headerRight: () => {
         return (
           <IconButton
-            icon={mealIsFavorite ? "stat" : "star-outline"}
+            icon={mealIsFavorite ? "star" : "star-outline"}
             color="white"
             onPress={changeFavoriteStatusHandler}
           />
